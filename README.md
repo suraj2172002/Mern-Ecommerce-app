@@ -3,7 +3,7 @@ MERN-Ecommerce-app
 # How to Run This Project
 
 1. Clone the repo  
-   git clone https://github.com/yourusername/reponame.git
+   git clone https://github.com/suraj2172002/Mern-Ecommerce-app.git
 
 2. Install backend dependencies  
    npm install
