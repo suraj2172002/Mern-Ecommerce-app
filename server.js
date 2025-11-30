@@ -21,8 +21,9 @@ const app = express();
 //middelwares
 app.use(cors());
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(morgan("dev"));
-app.use(express.static(path.join(__dirname, "./client/build")));
+//app.use(express.static(path.join(__dirname, "./client/build")));
 
 //routes
 app.use("/api/v1/auth", authRoutes);
@@ -30,8 +31,8 @@ app.use("/api/v1/category", categoryRoutes);
 app.use("/api/v1/product", productRoutes);
 
 //rest api
-app.get("*", function (req, res) {
-  res.sendFile(path.join(path.join(__dirname, "./client/build/index.html")));
+app.get("/", (req, res) => {
+  res.send("<h1>Welcome to eccomerce app</h1>");
 });
 
 //PORT

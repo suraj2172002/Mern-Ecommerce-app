@@ -1,3 +1,42 @@
-node_modules
+# -------------------
+# Node.js Backend
+# -------------------
+node_modules/
+.env
+.env.*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+dist/
+build/
 
-*.env
+# -------------------
+# React Frontend (CRA)
+# -------------------
+client/node_modules/
+client/build/
+client/.env
+client/.env.local
+client/.env.development
+client/.env.production
+client/.env.test
+
+# -------------------
+# OS/System Files
+# -------------------
+.DS_Store
+Thumbs.db
+
+# -------------------
+# IDE / Editor
+# -------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
