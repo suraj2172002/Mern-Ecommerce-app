@@ -34,7 +34,7 @@ const AdminOrders = () => {
 
   const handleChange = async (orderId, value) => {
     try {
-      const { data } = await axios.put(`/api/v1/auth/order-status/${orderId}`, {
+      const { data } = await axios.put(`https://mern-ecommerce-app1-97g7.onrender.com/api/v1/auth/order-status/${orderId}`, {
         status: value,
       });
       getOrders();
