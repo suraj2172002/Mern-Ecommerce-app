@@ -1,86 +1,128 @@
-🛒 MERN E-Commerce App
+<h1>🛒 MERN E-Commerce App</h1>
 
-A full-stack E-Commerce web application built with the MERN stack — MongoDB, Express.js, React.js, Node.js — including authentication, product management, cart system, payments, and admin dashboard.
+<p>
+A full-stack E-Commerce web application built using the <strong>MERN Stack</strong> — 
+MongoDB, Express.js, React.js, Node.js.  
+Includes authentication, product management, cart system, payments, and an admin dashboard.
+</p>
 
-🚀 Features
+<hr>
 
-🔐 Authentication
-Register / Login (JWT-based)
-User & Admin roles
+<h2>🚀 Features</h2>
 
-🛍️ E-Commerce Functionality
-Product listing
-Product categories
-Product filtering
-Product search
-Add to cart / Remove from cart
+<h3>🔐 Authentication</h3>
+<ul>
+  <li>Register / Login (JWT-based)</li>
+  <li>User & Admin roles</li>
+</ul>
 
-💳 Payment Integration
-Braintree Payment Gateway
+<h3>🛍️ E-Commerce Functionality</h3>
+<ul>
+  <li>Product listing</li>
+  <li>Product categories</li>
+  <li>Product filtering</li>
+  <li>Product search</li>
+  <li>Add to cart / Remove from cart</li>
+</ul>
 
-🛠️ Admin Features
-Create, update, delete products
-Manage categories
-Manage orders
+<h3>💳 Payment Integration</h3>
+<ul>
+  <li>Braintree Payment Gateway</li>
+</ul>
 
-📱 Responsive UI
-Built with React & Ant Design (antd)
+<h3>🛠️ Admin Features</h3>
+<ul>
+  <li>Create, update, delete products</li>
+  <li>Manage categories</li>
+  <li>Manage orders</li>
+</ul>
 
-📦 Tech Stack
-Frontend----
-React.js
-React Router
-Axios
-Ant Design
-React Icons
+<h3>📱 Responsive UI</h3>
+<ul>
+  <li>Built with React & Ant Design (antd)</li>
+</ul>
 
-Backend-----
-Node.js
-Express.js
-MongoDB + Mongoose
-JSON Web Token (JWT)
-Bcrypt
-Express-Formidable
-Payment
-Braintree
+<hr>
 
-# How to Run This Project
+<h2>📦 Tech Stack</h2>
 
-1. Clone the repo  
-   git clone https://github.com/suraj2172002/Mern-Ecommerce-app.git
+<h3>Frontend</h3>
+<ul>
+  <li>React.js</li>
+  <li>React Router</li>
+  <li>Axios</li>
+  <li>Ant Design (antd)</li>
+  <li>React Icons</li>
+</ul>
 
-2. Install backend dependencies  
-   npm install
+<h3>Backend</h3>
+<ul>
+  <li>Node.js</li>
+  <li>Express.js</li>
+  <li>MongoDB + Mongoose</li>
+  <li>JWT (JSON Web Token)</li>
+  <li>Bcrypt</li>
+  <li>Express-Formidable</li>
+  <li>Braintree Payments</li>
+</ul>
 
-3. Go to client folder and install dependencies  
-   cd client  
-   npm install
+<hr>
 
-4. Create a .env file in root with the following:
-   MONGO_URL=your-mongo-url
-   JWT_SECRET=your-secret
-   BRAINTREE_PUBLIC_KEY=your-key
-   BRAINTREE_PRIVATE_KEY=your-key
-   BRAINTREE_MERCHANT_ID=your-id
+<h2>📥 How to Run This Project</h2>
 
-5. Running the Project
-   Option 1 — Start Both (Frontend + Backend)
-    From the root folder:
-    npm run dev
+<h3>1️⃣ Clone the Repository</h3>
+<pre><code>git clone https://github.com/suraj2172002/Mern-Ecommerce-app.git
+</code></pre>
 
-   Option 2 — Run Individually
-    Run Backend:
-    npm run server
-    Run Frontend:
-    cd client
-    npm start
-   
-⚠️ Important Notes
-.env files are intentionally ignored using .gitignore.
-Without environment variables, the project will not run.
-Braintree keys must be valid for payment to work.
+<h3>2️⃣ Install Backend Dependencies</h3>
+<pre><code>npm install
+</code></pre>
 
-🙋‍♂️ Author
-Suraj Pathak
-Full Stack Developer
+<h3>3️⃣ Install Frontend Dependencies</h3>
+<pre><code>cd client
+npm install
+</code></pre>
+
+<h3>4️⃣ Create a <code>.env</code> File in Root</h3>
+<pre><code>MONGO_URL=your-mongo-url
+JWT_SECRET=your-secret
+BRAINTREE_PUBLIC_KEY=your-key
+BRAINTREE_PRIVATE_KEY=your-key
+BRAINTREE_MERCHANT_ID=your-id
+</code></pre>
+
+<hr>
+
+<h2>▶️ Running the Project</h2>
+
+<h3>Option 1 — Start Both Frontend & Backend</h3>
+<pre><code>npm run dev
+</code></pre>
+
+<h3>Option 2 — Run Individually</h3>
+<p><strong>Backend:</strong></p>
+<pre><code>npm run server
+</code></pre>
+
+<p><strong>Frontend:</strong></p>
+<pre><code>cd client
+npm start
+</code></pre>
+
+<hr>
+
+<h2>⚠️ Important Notes</h2>
+<ul>
+  <li><code>.env</code> files are ignored using <code>.gitignore</code>.</li>
+  <li>The project will not run without valid environment variables.</li>
+  <li>Braintree keys must be valid for payment processing.</li>
+</ul>
+
+<hr>
+
+<h2>🙋‍♂️ Author</h2>
+<p>
+<strong>Suraj Pathak</strong><br>
+Full Stack Developer<br>
 India 🇮🇳
+</p>
